@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panui · Panui</title>
+<link rel="icon" href="icon.png">
+<link rel="alternate" hreflang="he" href="index.html">
+<style>
+:root { --ink:#0E1116; --soft:#3D4452; --muted:#7A8190; --brand:#2F5BFF; --line:rgba(15,23,42,.08); --bg:#EEF2FA; --card:rgba(255,255,255,.72); }
+@media (prefers-color-scheme: dark) { :root { --ink:#F2F4F8; --soft:#C9CED8; --muted:#8F96A3; --line:rgba(255,255,255,.1); --bg:#0B1020; --card:rgba(22,28,45,.72); } }
+* { box-sizing: border-box; }
+body { margin:0; font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Rubik, Arial, sans-serif; color:var(--ink);
+  background: radial-gradient(60% 40% at 85% 5%, rgba(47,91,255,.28), transparent), radial-gradient(50% 40% at 5% 45%, rgba(18,183,106,.18), transparent), var(--bg); min-height:100vh; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display:flex; align-items:center; gap:14px; margin-bottom: 20px; }
+header img { width:56px; height:56px; border-radius:16px; }
+header a { color:inherit; text-decoration:none; font-weight:800; font-size:28px; letter-spacing:-.4px; }
+nav { display:flex; gap:8px; flex-wrap:wrap; margin-bottom: 20px; }
+nav a { padding:8px 16px; border-radius:999px; background:var(--card); border:1px solid var(--line); color:var(--ink); text-decoration:none; font-weight:600; font-size:14px; backdrop-filter: blur(20px); }
+nav a[aria-current] { background:var(--brand); color:#fff; border-color:var(--brand); }
+article { background:var(--card); border:1px solid var(--line); border-radius:28px; padding: 24px 22px; backdrop-filter: blur(24px); box-shadow: 0 10px 30px rgba(11,20,48,.08); }
+h1 { font-size: 28px; letter-spacing:-.4px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 28px 0 8px; }
+h3 { font-size: 16px; margin: 20px 0 6px; }
+p, li { color: var(--soft); }
+a { color: var(--brand); }
+blockquote { margin: 12px 0; padding: 10px 14px; border-radius: 14px; background: rgba(245,165,36,.12); color: var(--soft); }
+blockquote p { margin: 4px 0; }
+table { width:100%; border-collapse: collapse; font-size: 14px; margin: 12px 0; display:block; overflow-x:auto; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--ink); }
+mark { background: #FFE58A; color:#000; border-radius:4px; padding: 0 3px; }
+footer { margin-top: 24px; font-size: 13px; color: var(--muted); text-align:center; }
+</style>
+</head>
+<body>
+<main>
+<header><img src="icon.png" alt=""><a href="en.html">Panui</a></header>
+<nav><a href="en.html" aria-current=page>Panui</a><a href="privacy-en.html">Privacy policy</a><a href="terms-en.html">Terms of use</a><a href="index.html" hreflang="he">עברית</a></nav>
+<article>
+
+<h1>Panui</h1>
+<p>Where you can park in Tel Aviv, right now. A street-level map of the parking rules, and spots handed over from a driver who is leaving to a driver who is looking.</p>
+<p>The app is in a closed trial.</p>
+<h2>Support and contact</h2>
+<p>Questions, problems and data deletion requests: <a href="mailto:pelegd13@gmail.com">pelegd13@gmail.com</a></p>
+<p>Operator: Peleg Davidson</p>
+<p>You can also delete your account right in the app: Settings → Delete account.</p>
+
+</article>
+<footer>© Panui · built from docs/legal</footer>
+</main>
+</body>
+</html>
